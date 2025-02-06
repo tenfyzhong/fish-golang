@@ -3,7 +3,7 @@ abbr -a wgob CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build
 abbr -a tgob go build -gcflags "-N -l" -ldflags "-w"
 abbr -a gob go build
 abbr -a got go test -gcflags=all=-l -v -cover
-abbr -a gog go get -u
+abbr -a gog go get
 abbr -a gom go mod
 abbr -a goc go clean
 abbr -a goi go install
